@@ -1,0 +1,14 @@
+course=INTPRG2
+section=S15
+students=
+11111111
+course=INTPRG2
+section=S16
+students=
+course=ARCHORG
+section=S15
+students=
+11111111
+course=ITMATH3
+section=S16
+students=

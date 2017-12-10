@@ -1,0 +1,6 @@
+Course Code=INTPRG2
+Course Name=Programming 2
+Course Units=3.0
+Course Code=TESTING
+Course Name=test
+Course Units=3.0

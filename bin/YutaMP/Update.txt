@@ -1,0 +1,22 @@
+Cut
+Course Code=INTPRG2
+Course Name=Programming 2
+Course Units=3.0
+Section Name=S12
+Faculty=Chu
+Schedule=MW
+Start Time=1:00
+End Time=4:00
+Capacity=20
+Cut
+Course Code=TESTING
+Course Name=test
+Course Units=3.0
+Section Name=S12
+Faculty=test
+Schedule=MW
+Start Time=3:00
+End Time=4:00
+Capacity=1
+Student=11111111
+Cut

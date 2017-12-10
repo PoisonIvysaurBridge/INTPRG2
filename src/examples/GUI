@@ -1,0 +1,67 @@
+import javax.swing.*;
+
+import java.awt.*;
+
+import java.awt.event.*;
+
+public class ASimpleGUI extends JFrame implements ActionListener
+
+{
+
+JLabel lblDisplay;
+
+// the no-parameter constructor of ASimpleGUI
+
+public ASimpleGUI ()
+
+{
+
+super ("A Simple GUI Application"); // call to JFrame's constructor
+
+// terminates the program when window is closed
+
+// EXIT_ON_CLOSE is a constant defined inside JFrame. Since
+
+// ASimpleGUI is an extension of JFrame, the constant can be
+
+// accessed directly.
+
+setDefaultCloseOperation (EXIT_ON_CLOSE);
+
+setLayout (new FlowLayout ()); // changes the layout manager
+
+initScreen ();
+
+setSize (400, 200); // sets the dimension of the window
+
+setVisible (true); // must always be the last statement
+
+}
+
+/* responsible for drawing/putting components into the frame */
+
+public void initScreen ()
+
+{
+
+JLabel lblTitle;
+
+// instantiates a JLabel object, with text Name:
+
+lblTitle = new JLabel ("Name: ");
+
+add (lblTitle); // puts the label into the frame
+
+// param = title of your window
+
+// this makes the window visible.
+
+// The add method is a method of one of the
+
+// Container class, where JComponent inherits
+
+// from; JComponent is the superclass of JFrame;
+
+JTextField tfName;
+
+tfName = new JTextField (); // this version of the constructor
